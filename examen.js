@@ -18,7 +18,6 @@
 function saludar (name, lastname, nickname){
 
     const completeName = name + lastname;
-
     return console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + nickname + ".");    
 }
 
@@ -86,14 +85,23 @@ function receiveArrayOneByOne (array2 = []) {
     });
 }
 
+
 receiveArrayOneByOne(["Manzana","Pera","Jitomate"]);
 
-function receiveObjects (carros = {}) {
+
+var carros = [
+    {nombre: "Cadillac", año: "1720"},
+    {nombre: "Mac-E", año: "2023"},
+    {nombre: "Mustang", año: "2018"}
+];
+
+
+function receiveObjects (carros) {
     return carros.forEach(carro => {
-        console.log(carro);
-    });
+        console.log(carro.año)
+    }); 
 }
 
-receiveObjects({
-    nombre : "Hola",
-})
+
+
+receiveObjects(carros);
