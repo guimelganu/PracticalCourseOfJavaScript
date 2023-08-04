@@ -1,4 +1,1 @@
 # PracticalCourseOfJavaScript
-# PracticalCourseOfJavaScript
-# PracticalCourseOfJavaScript
-# PracticalCourseOfJavaScript
