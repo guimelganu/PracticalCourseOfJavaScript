@@ -7,10 +7,13 @@
 </head>
 <body>
     <h1 pantalla="LG">Manipulación del DOM Básica</h1>
-    <p class="parrafito">Esto es un parrafo</p>
-    <p id="pid">Esto es un parrafo</p>
+    <!-- <p class="parrafito">Esto es un parrafo</p>
+    <p id="pid">Esto es un parrafo</p> -->
+    <input id="numero1" placeholder="Escribe primer numero">
+    <input id="numero2" type="text" onchange="console.log('Cambio el input!')" placeholder="Escribe segundo numero">
+    <button id="calcular" onclick="btnOnclick()">Calculo</button>
 
-    <input type="text" placeholder="Escribe Algo">
+    <p id="result"></p>
 </body>
-<script src="script.js"></script>
+<script src="manipulacionDOMBasica.js"></script>
 </html>
