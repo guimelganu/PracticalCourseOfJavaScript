@@ -4,10 +4,15 @@ const input2 = document.querySelector('#numero2');
 const calcular = document.querySelector("#calcular");
 const result = document.querySelector("#result");
 
-function btnOnclick(){
+form.addEventListener('submit', sumvalues);
+
+function sumvalues(e){
+    e.preventDefault();
     const suma = parseInt(input1.value) + parseInt(input2.value);
     result.innerHTML = "Resultado de tu suma: " + suma;
 }
+
+
 // console.log({
 //     h1,
 //     p,
